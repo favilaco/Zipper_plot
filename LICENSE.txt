@@ -1,0 +1,3 @@
+The Zipper plot is freely available for all non-commercial applications. 
+
+If you are planning on using the Zipper plot in a commercial application, please contact Francisco Avila Cobos (Francisco.AvilaCobos@UGent.be).
