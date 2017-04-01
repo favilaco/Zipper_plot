@@ -143,7 +143,7 @@ FANTOM5 **(CAGE-seq)** with **1 sample type** :
 $ cd your_folder/Zipper_plot
 $ Rscript ZP_CAGE_1tissue.R input.txt /usr/bin/bedtools2-6f9c61fa34c077082ca9f8785992f3804c210e5d/bin/bedtools 5000 100 0 CNhs10723.10400-106A4 OFF output_2_CAGE_CNhs10723.10400-106A4
 ```
-Where the parameters after "Rscript" (in order): **Script_file, input_file; path_to_bedtools, Zipper_width_in_nucleotides, Number_permutations_for_AUZpval, tpm_threshold, sample_type, Tissue_pval (ON/OFF) ** and **output_name**
+Where the parameters after "Rscript" (in order): **Script_file, input_file; path_to_bedtools, Zipper_width_in_nucleotides, Number_permutations_for_AUZpval, tpm_threshold, sample_type, TSS_pval** *(ON/OFF)* and **output_name**
 
 *NOTE*: ALL possible sample types can be found in the file **"ManualCuration_2column.txt"**
 	
@@ -173,7 +173,7 @@ $ cd your_folder/Zipper_plot
 $ Rscript ZP_ROADMAP_1tissue.R input.txt /usr/bin/bedtools2-6f9c61fa34c077082ca9f8785992f3804c210e5d/bin/bedtools 5000 100 E096-H3K4me3 narrowPeak OFF output_4_H3K4me3_narrow_E096
 ```
 
-Where the parameters after "Rscript" (in order): **Script_file, input_file; path_to_bedtools, Zipper_width_in_nucleotides, Number_permutations_for_AUZpval, tissue-mark, peak_type, Tissue_pval (ON/OFF) ** and **output_name**
+Where the parameters after "Rscript" (in order): **Script_file, input_file; path_to_bedtools, Zipper_width_in_nucleotides, Number_permutations_for_AUZpval, tissue-mark, peak_type, TSS_pval** *(ON/OFF)* and **output_name**
 
 
 You can select:
