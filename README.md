@@ -191,5 +191,3 @@ Update:
 Depending on the R and data.table versions you are using, you may get the following warning message **(that you can safely ignore)** while the output is being generated:
 
 *"Invalid .internal.selfref detected and fixed by taking a (shallow) copy of the data.table so that := can add this new column by reference. [...] Also, in R<=v3.0.2, list(DT1,DT2) copied the entire DT1 and DT2 (R's list() used to copy named objects); please upgrade to R>v3.0.2 if that is biting."*
-
-
