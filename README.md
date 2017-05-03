@@ -10,7 +10,8 @@ Citing the Zipper plot
 ======================
 If used, please cite our work:
 
-Avila Cobos, F. et al. Zipper plot: visualizing transcriptional activity of genomic regions. bioRxiv 077073; doi: https://doi.org/10.1101/077073 
+Avila Cobos, F. et al. Zipper plot: visualizing transcriptional activity of genomic regions. BMC Bioinformatics 18, 231 (2017).
+
 
 Step 1: Installing software requirements
 ========================================
