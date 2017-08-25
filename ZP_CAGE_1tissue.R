@@ -45,8 +45,10 @@ user_params =tableGrob(rbind(c('File',output_filename),c('DataType','CAGE-seq'),
 ##############################################################################################
 
 setwd(User_dir)
-lnc_names <- read.table(input_filename,fill=TRUE)
 
+system(paste("awk '!array[$1,$2,$3]++' ",input_filename, "> tmp && mv tmp ",input_filename, sep="")) #Avoid problems when users forget to remove duplicate lines
+
+lnc_names <- read.table(input_filename,fill=TRUE)
 Input_size = countLines(input_filename)
 COUNTER = 0 # To avoid dynamically growing structures 
 
